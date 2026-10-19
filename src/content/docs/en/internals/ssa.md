@@ -109,6 +109,8 @@ The SSA validator checks duplicate definitions, dominance and use order, block-a
 - Validation does not prove complete heap alias or lifetime safety, or establish general semantic equivalence for all possible conversions.
 - `Cerune scalar SSA v0.1` is observation text, not a loadable executable or distribution format.
 
+See [LIR and Native Code Generation](/en/internals/lir-native/) for Native output after SSA-to-MIR lowering.
+
 ## Primary sources and examples
 
 - [MIR to SSA construction and validation](https://github.com/Cerune-Lang/Cerune/blob/master/docs/design/mir-ssa.en.md)

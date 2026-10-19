@@ -67,6 +67,8 @@ cerune emit-llvm examples/hello.ceru --target x86_64-unknown-linux-gnu -o hello.
 
 LLVMとQBEの`--target`は文字列、動的配列、標準出力、検査付き演算などで必要です。対象は`x86_64-unknown-linux-gnu`と`x86_64-pc-windows-msvc`です。`emit-obj`では`--target`と`-o`が必須です。`emit-asm`のターゲット省略時はホストOSに関係なくWindows向けになります。
 
+x86-64向けのLIR・ASM・Object生成の仕組みは[LIR・Nativeコード生成](/internals/lir-native/)で説明しています。
+
 ## コンパイルの観測（observe）
 
 `observe`は同一コンパイルのsources、HIR、MIR、注釈付きASM、manifestをまとめて保存します。

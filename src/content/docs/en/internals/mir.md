@@ -82,6 +82,8 @@ The `Cerune MIR v0.1` output of `emit-mir` is **observation text**, not a distri
 
 See [SSA](/en/internals/ssa/) for the optional conversion from MIR.
 
+See [LIR and Native Code Generation](/en/internals/lir-native/) for target-specific stack layout and assembly output.
+
 ## Primary sources and examples
 
 - [HIR / MIR / LIR stage design](https://github.com/Cerune-Lang/Cerune/blob/master/docs/design/ir-stages.en.md)

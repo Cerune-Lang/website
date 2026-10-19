@@ -31,6 +31,10 @@ SSAへの変換、ブロック引数、合流する値の受け渡し、直接�
 
 Bytecode命令、VMの評価スタックと関数フレーム、実行時エラーは[VM・Bytecode](/internals/vm/)を参照してください。
 
+## LIR・Nativeコード生成
+
+MIRからのx86-64 LIR変換、ASMとObjectの生成、ターゲット別の呼出規約は[LIR・Nativeコード生成](/internals/lir-native/)を参照してください。
+
 ## コマンド例
 
 Ceruneリポジトリのルートで実行します。
