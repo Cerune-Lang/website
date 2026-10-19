@@ -17,6 +17,10 @@ The [Variables and Bindings](/en/reference/variables/) page covers declarations,
 
 The [Functions](/en/reference/functions/) page covers definitions, parameters, return values, generics, and program entrypoints.
 
+## Arrays
+
+The [Arrays](/en/reference/arrays/) page covers fixed-length and dynamic arrays, copying, updates, iteration, and limitations.
+
 ## Syntax and behavior
 
 - `if`, `while`, `for`, and `match` control flow.
