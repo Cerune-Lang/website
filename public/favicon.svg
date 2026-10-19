@@ -1,5 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="17" fill="#0d1726"/>
-  <path d="M43 20a21 21 0 1 0 0 24" fill="none" stroke="#80e1ed" stroke-width="8" stroke-linecap="round"/>
-  <circle cx="45" cy="20" r="5" fill="#8abeff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1254 1254" role="img" aria-label="Cerune logo">
+  <defs>
+    <linearGradient id="cerune-blue" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#83bcff"/>
+      <stop offset="1" stop-color="#5ba4f8"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#cerune-blue)" transform="translate(627 627) scale(1.10) translate(-630 -646)">
+    <path d="M 557 226 L 514 235 L 472 248 L 401 280 L 366 301 L 326 330 L 304 349 L 260 395 L 231 434 L 213 464 L 195 500 L 178 546 L 165 601 L 161 637 L 161 672 L 166 715 L 176 756 L 194 804 L 214 843 L 244 888 L 276 926 L 310 959 L 354 993 L 376 1007 L 411 1026 L 451 1043 L 484 1054 L 533 1065 L 581 1070 L 638 1071 L 687 1068 L 722 1063 L 761 1054 L 801 1041 L 845 1022 L 871 1008 L 901 989 L 944 956 L 977 924 L 985 914 L 985 910 L 814 787 L 805 791 L 773 818 L 731 843 L 696 857 L 655 866 L 608 868 L 573 864 L 530 852 L 496 836 L 467 817 L 432 784 L 408 751 L 395 724 L 386 695 L 382 669 L 382 631 L 393 581 L 418 533 L 432 515 L 457 490 L 489 466 L 533 443 L 561 434 L 608 427 L 643 427 L 686 433 L 713 441 L 745 455 L 778 475 L 804 495 L 809 496 L 980 361 L 980 357 L 945 325 L 895 291 L 831 259 L 789 244 L 728 229 L 671 222 L 609 221 Z"/>
+    <path d="M 974 522 L 965 530 L 952 561 L 935 587 L 914 604 L 868 624 L 862 632 L 862 640 L 869 648 L 901 660 L 926 674 L 945 695 L 968 744 L 975 749 L 982 749 L 992 740 L 1002 715 L 1018 687 L 1031 674 L 1043 666 L 1091 645 L 1097 638 L 1097 630 L 1087 620 L 1059 610 L 1028 592 L 1010 570 L 990 528 L 982 522 Z"/>
+  </g>
 </svg>
