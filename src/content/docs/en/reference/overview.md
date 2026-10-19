@@ -13,9 +13,13 @@ The [Types](/en/reference/types/) page summarizes integer and floating-point typ
 
 The [Variables and Bindings](/en/reference/variables/) page covers declarations, reassignment with `mut`, type inference with `infer`, and block scope.
 
+## Functions
+
+The [Functions](/en/reference/functions/) page covers definitions, parameters, return values, generics, and program entrypoints.
+
 ## Syntax and behavior
 
-- Functions, `if`, `while`, `for`, and `match`.
+- `if`, `while`, `for`, and `match` control flow.
 - Explicit numeric conversions; no implicit numeric conversions.
 - Integer overflow and out-of-bounds array access cause runtime failures.
 
