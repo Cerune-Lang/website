@@ -41,6 +41,8 @@ cerune emit-sources examples/modules/main.ceru -o sources.json
 
 テキストを出す`emit-*`は通常stdoutへ出力し、`-o`で保存できます。`emit-sources`にはソース本文が含まれるため共有前に確認してください。生成したIRテキストは`run`の入力形式ではありません。
 
+VMのBytecode生成と実行の詳細は[VM・Bytecode](/internals/vm/)を参照してください。
+
 ## SSAを明示的に選ぶ
 
 `emit-mir --ssa`は元MIRとSSAを表示し、`run-mir --ssa`はSSAを直接実行します。Native生成の`emit-lir`・`emit-asm`・`emit-obj`、一括観測の`observe`にも`--ssa`を指定できます。**SSAへの変換だけでは最適化されません。** 詳しくは[SSA](/internals/ssa/)を参照してください。

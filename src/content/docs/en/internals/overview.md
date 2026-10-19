@@ -27,6 +27,10 @@ See [MIR](/en/internals/mir/) for basic blocks, typed locals, branches, ownershi
 
 See [SSA](/en/internals/ssa/) for scalar SSA construction, block arguments, joins, direct execution, and Native output.
 
+## VM and Bytecode
+
+See [VM and Bytecode](/en/internals/vm/) for VM instructions, the evaluation stack, function frames, and runtime failures.
+
 ## CLI examples
 
 Run these commands from the Cerune repository root:

@@ -27,6 +27,10 @@ Ceruneはソースコードから中間表現を生成し、複数の方法で�
 
 SSAへの変換、ブロック引数、合流する値の受け渡し、直接実行、Native生成は[SSA](/internals/ssa/)を参照してください。
 
+## VM・Bytecode
+
+Bytecode命令、VMの評価スタックと関数フレーム、実行時エラーは[VM・Bytecode](/internals/vm/)を参照してください。
+
 ## コマンド例
 
 Ceruneリポジトリのルートで実行します。
