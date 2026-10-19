@@ -25,6 +25,10 @@ The [Arrays](/en/reference/arrays/) page covers fixed-length and dynamic arrays,
 
 See [Control Flow](/en/reference/control-flow/) for conditional statements, loops, `break` and `continue`, and branching on `enum` variants.
 
+## Modules
+
+See [Modules](/en/reference/modules/) for file imports, `pub` visibility, namespaces, and dependency rules.
+
 ## Syntax and behavior
 - Explicit numeric conversions; no implicit numeric conversions.
 - Integer overflow and out-of-bounds array access cause runtime failures.

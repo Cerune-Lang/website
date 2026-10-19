@@ -21,7 +21,7 @@ export default defineConfig({
       ],
       sidebar: [
         { label: 'はじめに', translations: { en: 'Getting Started' }, items: [{ slug: 'guide/getting-started' }] },
-        { label: '言語リファレンス', translations: { en: 'Language Reference' }, items: [{ slug: 'reference/overview' }, { slug: 'reference/types' }, { slug: 'reference/variables' }, { slug: 'reference/functions' }, { slug: 'reference/arrays' }, { slug: 'reference/control-flow' }] },
+        { label: '言語リファレンス', translations: { en: 'Language Reference' }, items: [{ slug: 'reference/overview' }, { slug: 'reference/types' }, { slug: 'reference/variables' }, { slug: 'reference/functions' }, { slug: 'reference/arrays' }, { slug: 'reference/control-flow' }, { slug: 'reference/modules' }] },
         { label: 'コンパイラ内部', translations: { en: 'Compiler Internals' }, items: [{ slug: 'internals/overview' }] },
         { label: 'サンプル', translations: { en: 'Examples' }, items: [{ slug: 'examples/overview' }] },
       ],
