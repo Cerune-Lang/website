@@ -33,7 +33,13 @@ The build outputs static files in `dist/` for hosting at `cerune.hokutaka.dev`.
 
 ## Deployment
 
-This PR configures the production origin in Astro but **does not publish or change DNS**. Connect your existing host to `dist/`, configure the `cerune.hokutaka.dev` subdomain, and enable HTTPS separately. The CI only runs checks/build, and does not require deployment secrets.
+The site is published to **GitHub Pages** from the `main` branch by
+[`deploy.yml`](.github/workflows/deploy.yml). The public URL is
+[cerune.hokutaka.dev](https://cerune.hokutaka.dev/).
+
+The owner must enable GitHub Pages, set the custom domain and create a DNS CNAME
+record once. See **[docs/deployment.md](docs/deployment.md)** for the exact steps.
+DNS and GitHub Pages settings are not changed by the workflow.
 
 ## License
 
