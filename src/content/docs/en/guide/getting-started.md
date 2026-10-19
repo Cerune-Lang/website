@@ -1,24 +1,48 @@
 ---
 title: Getting Started
-description: Your first steps with Cerune.
+description: Install Cerune and use the basic CLI commands.
 ---
 
-Cerune is an experimental language that makes compiler transformations observable. Start by running a small program.
+This page covers installation, source validation, and program execution.
 
-## Get Cerune
+## Installation
 
-Download a supported distribution from [GitHub Releases](https://github.com/Cerune-Lang/Cerune/releases). For building from source and further instructions, see the [README](https://github.com/Cerune-Lang/Cerune/blob/master/README.md).
+Download a distribution for Windows, Linux, or macOS from [GitHub Releases](https://github.com/Cerune-Lang/Cerune/releases). See the [core README](https://github.com/Cerune-Lang/Cerune/blob/master/README.md) for version-specific packages and installation instructions.
 
-## Your first program
+With Rust and Cargo installed, you can run Cerune from source:
 
-Try the maintained [hello.ceru](https://github.com/Cerune-Lang/Cerune/blob/master/examples/hello.ceru). For CLI details, consult the [CLI reference](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/cli.en.md).
+```sh
+git clone https://github.com/Cerune-Lang/Cerune.git
+cd Cerune
+cargo run --quiet -- run examples/hello.ceru
+```
+
+The example prints `42`.
+
+## CLI commands
+
+If `cerune` is installed, run these commands from the Cerune repository root:
+
+```sh
+cerune check examples/hello.ceru
+cerune run examples/hello.ceru
+cerune emit-ir examples/hello.ceru
+```
+
+| Command | Behavior |
+| --- | --- |
+| `check` | Checks syntax, semantics, and types without running the program. |
+| `run` | Executes Cerune IR directly. |
+| `emit-ir` | Outputs Cerune IR after type and name resolution. |
+| `run-vm` | Executes the program using Cerune VM. |
 
 :::note
-Cerune is actively evolving. Consult the language repository for the exact feature and CLI support of your version.
+Passing `check` does not guarantee support in every code-generation path. Confirm compatibility with the Cerune version you use.
 :::
 
-## Continue exploring
+## Details
 
+- [CLI reference (primary source)](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/cli.en.md)
+- [hello.ceru (primary source)](https://github.com/Cerune-Lang/Cerune/blob/master/examples/hello.ceru)
 - [Language Reference](/en/reference/overview/)
-- [Compiler Internals](/en/internals/overview/)
-- [Try in Tint](https://tint.hokutaka.dev/)
+- [Tint](https://tint.hokutaka.dev/)

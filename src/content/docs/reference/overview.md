@@ -1,27 +1,35 @@
 ---
 title: 言語リファレンス
-description: Ceruneの型や言語機能を調べる入口。
+description: Ceruneの型、構文、対応機能の概要。
 ---
 
-このページは、Ceruneの構文と意味論を探すための **案内ページ** です。厳密な仕様は本体側で一元管理します。
+ここではCeruneの主要な言語機能をまとめます。型の厳密な意味、評価順、停止条件は[言語リファレンス（一次資料）](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/language.ja.md)で定義されています。
 
-## 主なトピック
+## 型
 
-| トピック | 説明 |
+| 分類 | 対応する型 |
 | --- | --- |
-| 型と値 | 整数、浮動小数点、真偽値、文字列、配列 |
-| 関数 | 引数、戻り値、呼び出し |
-| データ型 | 構造体相当の積型、列挙型 |
-| 制御フロー | 条件分岐、ループ、パターンマッチ |
-| モジュール | ファイル間の参照と公開範囲 |
-| 実行時の停止 | 演算上の失敗と診断 |
+| 符号付き整数 | `i8`、`i16`、`i32`、`i64` |
+| 符号なし整数 | `u8`、`u16`、`u32`、`u64` |
+| 浮動小数点 | `f32`、`f64` |
+| 真偽値 | `bool` |
+| 文字列 | `string`（UTF-8） |
+| 配列 | 固定長 `[T; N]`、動的 `[T]` |
+| ユーザー定義型 | 名前付き積型、`enum` |
 
-実装中・未対応の機能もあります。サポート状況は必ず一次資料で確認してください。
+## 主な構文と規則
 
-## 一次資料へのリンク
+- 型付きの変数宣言。既定は再代入不可で、`mut`によって再代入を許可します。
+- 関数定義と呼び出し、`if`、`while`、`for`、`match`。
+- 明示的な数値変換。暗黙の数値変換は行いません。
+- 整数の桁あふれや配列の範囲外参照などでは実行を停止します。
 
-- [言語リファレンス（日本語）](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/language.ja.md)
-- [CLIリファレンス（日本語）](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/cli.ja.md)
-- [言語ロードマップ](https://github.com/Cerune-Lang/Cerune/blob/master/docs/design/language-roadmap.ja.md)
+## 現在の主な制限
 
-各機能の短い解説は、実際の利用に沿って少しずつ増やしていきます。
+再帰、文字列の添字参照、動的配列の伸長、汎用`Option`/`Result`、ファイル・ネットワークI/Oなどは未実装です。機能の正確な対応範囲と今後の計画は一次資料を参照してください。
+
+## 一次資料
+
+- [言語リファレンス](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/language.ja.md)
+- [CLIリファレンス](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/cli.ja.md)
+- [機能一覧とロードマップ](https://github.com/Cerune-Lang/Cerune/blob/master/docs/design/language-roadmap.ja.md)

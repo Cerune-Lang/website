@@ -1,16 +1,28 @@
 ---
 title: Examples
-description: Browse Cerune programs maintained and tested in the core repository.
+description: Examples maintained in the core Cerune repository and how to run them.
 ---
 
-The **canonical examples live in the core Cerune repository's `examples/` directory**. This site explains how to approach them rather than keeping separate, potentially stale copies.
+Executable Cerune examples are maintained in the core repository's [examples/](https://github.com/Cerune-Lang/Cerune/tree/master/examples) directory. This site describes their purpose and how to run them without maintaining duplicate source files.
 
-## Browse examples
+## Example list
 
-- [Hello World](https://github.com/Cerune-Lang/Cerune/blob/master/examples/hello.ceru)
-- [Functions](https://github.com/Cerune-Lang/Cerune/blob/master/examples/functions.ceru)
-- [Array iteration](https://github.com/Cerune-Lang/Cerune/blob/master/examples/array_iteration.ceru)
-- [Floating point](https://github.com/Cerune-Lang/Cerune/blob/master/examples/floating_point.ceru)
+| Example | Description |
+| --- | --- |
+| [hello.ceru](https://github.com/Cerune-Lang/Cerune/blob/master/examples/hello.ceru) | Variables and integer addition; prints `42` |
+| [functions.ceru](https://github.com/Cerune-Lang/Cerune/blob/master/examples/functions.ceru) | Parameters, return values, and calls |
+| [array_iteration.ceru](https://github.com/Cerune-Lang/Cerune/blob/master/examples/array_iteration.ceru) | Array iteration |
+| [floating_point.ceru](https://github.com/Cerune-Lang/Cerune/blob/master/examples/floating_point.ceru) | Calculations using `f32` and `f64` |
+
+## Running an example
+
+Run these commands from the Cerune repository root with the installed CLI:
+
+```sh
+cerune run examples/hello.ceru
+cerune run examples/functions.ceru
+```
+
 - [All examples](https://github.com/Cerune-Lang/Cerune/tree/master/examples)
-
-Experiment in [Tint](https://tint.hokutaka.dev/).
+- [CLI reference](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/cli.en.md)
+- [Tint](https://tint.hokutaka.dev/)
