@@ -19,6 +19,7 @@ and compiler internals. The canonical specifications and runnable examples remai
 6. 仕様を複製しない。説明には一次資料へのリンクを添える。
 7. 日本語と英語で、説明する事実と制限が一致するようにする。
 8. 将来の計画は現在の機能と分け、「未実装」「予定」などと明示する。
+9. リファレンスのコード例は、説明する機能が名前・入力・出力から分かるようにする。任意の計算結果だけを示す例は避ける。
 
 ## English
 
@@ -30,3 +31,4 @@ and compiler internals. The canonical specifications and runnable examples remai
 6. Link to primary specifications rather than duplicating normative text.
 7. Keep Japanese and English pages consistent in their factual claims.
 8. Distinguish proposals and future plans from implemented features.
+9. In reference examples, choose names, inputs, and outputs that make the demonstrated behavior clear. Avoid arbitrary numeric results without context.

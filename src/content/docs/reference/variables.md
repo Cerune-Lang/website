@@ -7,11 +7,13 @@ Ceruneでは、名前と値を**束縛**します。宣言時に型を指定し�
 
 ## 宣言と再代入
 
+初期在庫5個から2個取り出し、残り3個を表示する例です。
+
 ```cerune
-count: i64 = 40;
-mut total: i64 = count;
-total = total + 2;
-print(total); // 42
+initial_stock: i64 = 5;
+mut remaining: i64 = initial_stock;
+remaining = remaining - 2;
+print(remaining); // 3
 ```
 
 | 記法 | 意味 |

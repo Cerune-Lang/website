@@ -7,13 +7,15 @@ Use `fn` to define a function in Cerune. **Parameter and return types are explic
 
 ## Definitions and calls
 
+This function accepts a unit price and quantity, then returns the total price.
+
 ```cerune
-fn add(left: i64, right: i64) -> i64 {
-    return left + right;
+fn total_price(unit_price: i64, quantity: i64) -> i64 {
+    return unit_price * quantity;
 }
 
-result: i64 = add(20, 22);
-print(result); // 42
+total: i64 = total_price(150, 3);
+print(total); // 450 (150 × 3)
 ```
 
 | Syntax | Meaning |
@@ -29,11 +31,11 @@ A value-returning function must return a value along every execution path. **A t
 ## Functions without return values
 
 ```cerune
-fn show(value: i64) -> void {
-    print(value);
+fn show_status(status: string) -> void {
+    print(status);
 }
 
-show(42);
+show_status("ready"); // ready
 ```
 
 A `void` function may reach the end of its body or exit using `return;`. Call `void` functions as statements and value-returning functions as expressions.
@@ -52,7 +54,7 @@ A Cerune program may use top-level executable statements or explicitly define `f
 
 ```cerune
 fn main() -> void {
-    print(42);
+    print("Cerune started"); // Cerune started
 }
 ```
 
