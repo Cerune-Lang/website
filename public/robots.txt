@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cerune.hokutaka.dev/sitemap-index.xml
