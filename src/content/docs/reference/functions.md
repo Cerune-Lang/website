@@ -7,13 +7,15 @@ Ceruneでは`fn`で関数を定義します。**引数と戻り値の型を明�
 
 ## 関数の定義と呼び出し
 
+単価と数量を引数に受け取り、合計金額を戻り値として返す例です。
+
 ```cerune
-fn add(left: i64, right: i64) -> i64 {
-    return left + right;
+fn total_price(unit_price: i64, quantity: i64) -> i64 {
+    return unit_price * quantity;
 }
 
-result: i64 = add(20, 22);
-print(result); // 42
+total: i64 = total_price(150, 3);
+print(total); // 450（150 × 3）
 ```
 
 | 構文 | 内容 |
@@ -29,11 +31,11 @@ print(result); // 42
 ## 戻り値がない関数
 
 ```cerune
-fn show(value: i64) -> void {
-    print(value);
+fn show_status(status: string) -> void {
+    print(status);
 }
 
-show(42);
+show_status("ready"); // ready
 ```
 
 `void`関数は末尾まで実行するか、`return;`で終了できます。`void`関数は呼び出し文として使い、値を返す関数の呼び出しは式として使います。
@@ -52,7 +54,7 @@ Ceruneは、トップレベルの実行文を使う形式と、`fn main() -> voi
 
 ```cerune
 fn main() -> void {
-    print(42);
+    print("Cerune started"); // Cerune started
 }
 ```
 

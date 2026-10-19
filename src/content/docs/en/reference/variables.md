@@ -7,11 +7,13 @@ Cerune **binds a name to a value**. Each binding has a type determined when it i
 
 ## Declarations and reassignment
 
+This example starts with five items in stock, removes two, and prints the remaining three.
+
 ```cerune
-count: i64 = 40;
-mut total: i64 = count;
-total = total + 2;
-print(total); // 42
+initial_stock: i64 = 5;
+mut remaining: i64 = initial_stock;
+remaining = remaining - 2;
+print(remaining); // 3
 ```
 
 | Syntax | Meaning |
