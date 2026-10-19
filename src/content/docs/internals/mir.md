@@ -80,6 +80,8 @@ MIRの検証器は、命令や分岐の参照先、型、ブロック終端、�
 
 `emit-mir`の`Cerune MIR v0.1`は**観測用テキスト**であり、実行可能な配布ファイルや安定したMIR loader形式ではありません。
 
+MIRから変換する表現については[SSA](/internals/ssa/)を参照してください。
+
 ## 一次資料とサンプル
 
 - [HIR／MIR／LIRの段階設計](https://github.com/Cerune-Lang/Cerune/blob/master/docs/design/ir-stages.ja.md)

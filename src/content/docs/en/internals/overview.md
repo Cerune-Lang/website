@@ -23,6 +23,10 @@ See [Cerune IR (HIR)](/en/internals/ir/) for resolved types and names, NodeId an
 
 See [MIR](/en/internals/mir/) for basic blocks, typed locals, branches, ownership operations, and direct MIR execution.
 
+## SSA
+
+See [SSA](/en/internals/ssa/) for scalar SSA construction, block arguments, joins, direct execution, and Native output.
+
 ## CLI examples
 
 Run these commands from the Cerune repository root:

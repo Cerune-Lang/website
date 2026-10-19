@@ -80,6 +80,8 @@ The MIR validator checks references, types, terminators, definite initialization
 
 The `Cerune MIR v0.1` output of `emit-mir` is **observation text**, not a distributable executable format or stable loadable MIR image.
 
+See [SSA](/en/internals/ssa/) for the optional conversion from MIR.
+
 ## Primary sources and examples
 
 - [HIR / MIR / LIR stage design](https://github.com/Cerune-Lang/Cerune/blob/master/docs/design/ir-stages.en.md)
