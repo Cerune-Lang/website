@@ -7,15 +7,7 @@ This page summarizes the main language features. For precise type semantics, eva
 
 ## Types
 
-| Category | Supported types |
-| --- | --- |
-| Signed integers | `i8`, `i16`, `i32`, `i64` |
-| Unsigned integers | `u8`, `u16`, `u32`, `u64` |
-| Floating point | `f32`, `f64` |
-| Boolean | `bool` |
-| Strings | `string` (UTF-8) |
-| Arrays | Fixed-length `[T; N]`, dynamic `[T]` |
-| User-defined types | Named product types and `enum` |
+The [Types](/en/reference/types/) page summarizes integer and floating-point types, booleans, strings, arrays, user-defined types, and their basic rules.
 
 ## Syntax and behavior
 
