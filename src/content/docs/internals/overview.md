@@ -15,6 +15,10 @@ Ceruneはソースコードから中間表現を生成し、複数の方法で�
 | VM | Cerune bytecodeを使う実行経路 |
 | コード生成 | C、LLVM IR、QBE IR、WAT、Native ASM、Objectなど |
 
+## Cerune IR（HIR）
+
+型や名前の解決結果、NodeIdとソース位置、IRの直接実行とMIRへの変換については[Cerune IR（HIR）](/internals/ir/)を参照してください。
+
 ## コマンド例
 
 Ceruneリポジトリのルートで実行します。
