@@ -109,6 +109,8 @@ SSAの検証器は、値の二重定義、使用前の定義、支配関係、�
 - 検証成功は、heapの参照関係や値の寿命が完全に安全であること、変換一般の意味が正しいことの形式証明ではありません。
 - 出力される`Cerune scalar SSA v0.1`は観測テキストであり、読み込んで実行する配布形式ではありません。
 
+SSAからMIRへ戻した後のNative生成は[LIR・Nativeコード生成](/internals/lir-native/)を参照してください。
+
 ## 一次資料と実行例
 
 - [MIRのSSA変換（実装と検証）](https://github.com/Cerune-Lang/Cerune/blob/master/docs/design/mir-ssa.ja.md)

@@ -31,6 +31,10 @@ See [SSA](/en/internals/ssa/) for scalar SSA construction, block arguments, join
 
 See [VM and Bytecode](/en/internals/vm/) for VM instructions, the evaluation stack, function frames, and runtime failures.
 
+## LIR and Native code generation
+
+See [LIR and Native Code Generation](/en/internals/lir-native/) for x86-64 lowering from MIR, ASM and object files, and target-specific calling conventions.
+
 ## CLI examples
 
 Run these commands from the Cerune repository root:

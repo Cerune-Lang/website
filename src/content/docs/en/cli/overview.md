@@ -67,6 +67,8 @@ cerune emit-llvm examples/hello.ceru --target x86_64-unknown-linux-gnu -o hello.
 
 LLVM and QBE require explicit `--target` for strings, dynamic arrays, output, checked operations, and similar features. Supported values are `x86_64-unknown-linux-gnu` and `x86_64-pc-windows-msvc`. `emit-obj` requires both `--target` and `-o`. Without `--target`, `emit-asm` produces Windows assembly regardless of the host OS.
 
+See [LIR and Native Code Generation](/en/internals/lir-native/) for x86-64 LIR, assembly, and object generation.
+
 ## Compiler observations (observe)
 
 `observe` saves sources, HIR, MIR, annotated assembly, and a manifest from the same compilation.

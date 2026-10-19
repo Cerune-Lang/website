@@ -82,6 +82,8 @@ MIRの検証器は、命令や分岐の参照先、型、ブロック終端、�
 
 MIRから変換する表現については[SSA](/internals/ssa/)を参照してください。
 
+Native向けのスタック配置やASM生成については[LIR・Nativeコード生成](/internals/lir-native/)を参照してください。
+
 ## 一次資料とサンプル
 
 - [HIR／MIR／LIRの段階設計](https://github.com/Cerune-Lang/Cerune/blob/master/docs/design/ir-stages.ja.md)
