@@ -89,6 +89,8 @@ cerune observe examples/ir_stages/control_flow.ceru --target x86_64-unknown-linu
 
 `observe`は`--target`と**まだ存在しない**出力ディレクトリを指定する`-o`が必要です。親ディレクトリは事前に作成してください。観測結果にはソース本文も含まれますが、プログラムの実行やリンクは行いません。
 
+変換後の表現については[MIR](/internals/mir/)を参照してください。
+
 ## 実装上の境界と一次資料
 
 - HIRは機械語や汎用マシンIRの代わりではなく、Ceruneの意味を表現するための中間表現です。

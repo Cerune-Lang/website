@@ -89,6 +89,8 @@ cerune observe examples/ir_stages/control_flow.ceru --target x86_64-unknown-linu
 
 `observe` requires `--target` and an **output directory that does not exist yet**, specified with `-o`. Create the parent directory first. The bundle includes source text; it does not execute or link a program.
 
+See [MIR](/en/internals/mir/) for the lowered representation.
+
 ## Scope and primary sources
 
 - HIR represents Cerune language semantics, not a universal machine IR or native instruction format.
