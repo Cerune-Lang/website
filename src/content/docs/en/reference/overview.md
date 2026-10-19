@@ -21,9 +21,11 @@ The [Functions](/en/reference/functions/) page covers definitions, parameters, r
 
 The [Arrays](/en/reference/arrays/) page covers fixed-length and dynamic arrays, copying, updates, iteration, and limitations.
 
-## Syntax and behavior
+## Control Flow
 
-- `if`, `while`, `for`, and `match` control flow.
+See [Control Flow](/en/reference/control-flow/) for conditional statements, loops, `break` and `continue`, and branching on `enum` variants.
+
+## Syntax and behavior
 - Explicit numeric conversions; no implicit numeric conversions.
 - Integer overflow and out-of-bounds array access cause runtime failures.
 
