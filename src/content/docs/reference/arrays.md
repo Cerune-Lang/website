@@ -90,4 +90,4 @@ for (value: infer in values) {
 - [dynamic_arrays/repeat.ceru](https://github.com/Cerune-Lang/Cerune/blob/master/examples/dynamic_arrays/repeat.ceru) — 指定個数による配列生成
 - [動的配列のサンプル一覧](https://github.com/Cerune-Lang/Cerune/blob/master/examples/dynamic_arrays/README.md)
 
-このページは要約です。正確な評価順、所有、境界検査、停止条件は[言語リファレンス](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/language.ja.md)と[動的配列の設計](https://github.com/Cerune-Lang/Cerune/blob/master/docs/design/owned-arrays.ja.md)を参照してください。
+このページは要約です。正確な評価順、所有、添字の範囲検査、停止条件は[言語リファレンス](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/language.ja.md)と[動的配列の設計](https://github.com/Cerune-Lang/Cerune/blob/master/docs/design/owned-arrays.ja.md)を参照してください。
