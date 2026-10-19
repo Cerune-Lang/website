@@ -21,6 +21,7 @@ Cerune is an experimental programming language supporting static typing, direct 
 
 - **[Getting Started](/en/guide/getting-started/)** — Installation, source validation, and execution.
 - **[Language Reference](/en/reference/overview/)** — Types, syntax, supported features, and limitations.
+- **[CLI](/en/cli/overview/)** — Validation, execution, generation, and observation commands.
 - **[Compiler Internals](/en/internals/overview/)** — IR, MIR, SSA, execution paths, and code generation.
 - **[Examples](/en/examples/overview/)** — Programs maintained in the core repository and how to run them.
 
