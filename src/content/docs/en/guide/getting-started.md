@@ -42,6 +42,7 @@ Passing `check` does not guarantee support in every code-generation path. Confir
 
 ## Details
 
+- [CLI guide](/en/cli/overview/)
 - [CLI reference (primary source)](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/cli.en.md)
 - [hello.ceru (primary source)](https://github.com/Cerune-Lang/Cerune/blob/master/examples/hello.ceru)
 - [Language Reference](/en/reference/overview/)

@@ -21,6 +21,7 @@ Ceruneは、静的型付け、IR直接実行、VM実行、複数形式へのコ�
 
 - **[はじめに](/guide/getting-started/)** — インストール方法、構文検査、プログラムの実行。
 - **[言語リファレンス](/reference/overview/)** — 型、構文、実装済みの機能と制限。
+- **[CLI](/cli/overview/)** — 検査、実行、コード生成、観測コマンド。
 - **[コンパイラ内部](/internals/overview/)** — IR、MIR、SSA、実行経路、コード生成。
 - **[サンプル](/examples/overview/)** — 本体リポジトリのコード例と実行方法。
 

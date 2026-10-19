@@ -42,6 +42,7 @@ cerune emit-ir examples/hello.ceru
 
 ## 詳細
 
+- [CLIの使い方](/cli/overview/)
 - [CLIリファレンス（一次資料）](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/cli.ja.md)
 - [hello.ceru（一次資料）](https://github.com/Cerune-Lang/Cerune/blob/master/examples/hello.ceru)
 - [言語リファレンス](/reference/overview/)
