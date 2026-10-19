@@ -91,7 +91,7 @@ cerune observe examples/ir_stages/control_flow.ceru --target x86_64-unknown-linu
 
 変換後の表現については[MIR](/internals/mir/)を参照してください。
 
-## 実装上の境界と一次資料
+## 用途・制限と一次資料
 
 - HIRは機械語や汎用マシンIRの代わりではなく、Ceruneの意味を表現するための中間表現です。
 - HIRの意味上の整数型と、バックエンドで選ぶ物理的な格納幅を混同しないでください。

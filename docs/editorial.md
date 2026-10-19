@@ -24,7 +24,7 @@ and compiler internals. The canonical specifications and runnable examples remai
 
 1. Use descriptive headings such as “CLI commands” or “Limitations” instead of vague calls to action.
 2. Avoid metaphors, promotional claims, and vague invitations to “explore” or “discover”.
-3. Prefer specific behavior, commands, support boundaries, and limitations.
+3. Prefer specific behavior, commands, supported features, and limitations.
 4. Do not imply unsupported features are available or omit conditions that affect correctness.
 5. Verify CLI commands and example paths against the core repository.
 6. Link to primary specifications rather than duplicating normative text.

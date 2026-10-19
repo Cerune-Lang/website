@@ -35,7 +35,7 @@ See [Modules](/en/reference/modules/) for file imports, `pub` visibility, namesp
 
 ## Current limitations
 
-Recursion, string indexing, dynamic array growth, generic `Option`/`Result`, and file/network I/O are not implemented. Refer to the primary sources for the exact support boundaries and planned work.
+Recursion, string indexing, dynamic array growth, generic `Option`/`Result`, and file/network I/O are not implemented. Refer to the primary sources for the supported features, limitations, and planned work.
 
 ## Primary sources
 
