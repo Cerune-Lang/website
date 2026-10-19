@@ -41,6 +41,10 @@ cerune emit-sources examples/modules/main.ceru -o sources.json
 
 Text-producing `emit-*` commands normally write to stdout and accept `-o`. `emit-sources` includes full source contents, so review before sharing. Previously emitted IR text is not accepted as input to `run`.
 
+## Explicit SSA selection
+
+`emit-mir --ssa` displays original MIR and SSA; `run-mir --ssa` executes SSA directly. `--ssa` is also available for Native output with `emit-lir`, `emit-asm`, and `emit-obj`, and for `observe` bundles. **Constructing SSA does not itself optimize the program.** See [SSA](/en/internals/ssa/).
+
 ## Code generation
 
 | Command | Artifact |
