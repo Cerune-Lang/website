@@ -19,6 +19,10 @@ Cerune generates intermediate representations from source code and provides mult
 
 See [Cerune IR (HIR)](/en/internals/ir/) for resolved types and names, NodeId and source origins, direct IR execution, and MIR lowering.
 
+## MIR
+
+See [MIR](/en/internals/mir/) for basic blocks, typed locals, branches, ownership operations, and direct MIR execution.
+
 ## CLI examples
 
 Run these commands from the Cerune repository root:
