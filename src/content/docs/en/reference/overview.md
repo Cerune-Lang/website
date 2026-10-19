@@ -9,9 +9,12 @@ This page summarizes the main language features. For precise type semantics, eva
 
 The [Types](/en/reference/types/) page summarizes integer and floating-point types, booleans, strings, arrays, user-defined types, and their basic rules.
 
+## Bindings and reassignment
+
+The [Variables and Bindings](/en/reference/variables/) page covers declarations, reassignment with `mut`, type inference with `infer`, and block scope.
+
 ## Syntax and behavior
 
-- Typed variable declarations. Bindings are immutable by default; use `mut` to allow reassignment.
 - Functions, `if`, `while`, `for`, and `match`.
 - Explicit numeric conversions; no implicit numeric conversions.
 - Integer overflow and out-of-bounds array access cause runtime failures.
