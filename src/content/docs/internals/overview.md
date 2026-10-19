@@ -1,20 +1,34 @@
 ---
 title: コンパイラ内部
-description: Ceruneの変換過程と複数の実行経路を理解する。
+description: Ceruneの中間表現、実行経路、コード生成。
 ---
 
-Ceruneの特徴の一つは、ソースコードがどのように変換されるかを **観測** できることです。
+Ceruneはソースコードから中間表現を生成し、複数の方法で実行・コード生成を行います。このページでは、各経路の役割をまとめます。
 
-## 何を観測するのか
+## 中間表現と実行経路
 
-ソースコードから各種中間表現への変換、複数の実行経路、生成コードと元のソース位置の対応を調べます。
+| 項目 | 内容 |
+| --- | --- |
+| Cerune IR | 型や参照を解決した共通の中間表現 |
+| MIR | 制御フローや操作を明示した中間表現 |
+| SSA | MIRをSSA形式に変換する経路 |
+| VM | Cerune bytecodeを使う実行経路 |
+| コード生成 | C、LLVM IR、QBE IR、WAT、Native ASM、Objectなど |
 
-IR、MIR、SSAなどの用語や各経路の扱いは、実装に合わせて更新される一次資料を参照してください。
+## コマンド例
 
-## 一次資料とツール
+Ceruneリポジトリのルートで実行します。
 
-- [設計ドキュメント一覧](https://github.com/Cerune-Lang/Cerune/tree/master/docs/design)
-- [本体のREADME](https://github.com/Cerune-Lang/Cerune/blob/master/README.md)
-- [Tint — 変換の可視化](https://tint.hokutaka.dev/)
+```sh
+cerune emit-ir examples/hello.ceru
+cerune emit-mir examples/hello.ceru
+cerune run-vm examples/hello.ceru
+```
 
-今後は実際に生成された変換例を使って、各段階を図解する予定です。
+`observe`コマンドでは同じコンパイルからソース情報、複数の中間表現、生成物との対応情報を保存できます。`--target`と新しい出力ディレクトリの`-o`指定が必要です。詳しくは[CLIの仕様](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/cli.ja.md)を確認してください。
+
+## 一次資料
+
+- [コンパイラ設計文書](https://github.com/Cerune-Lang/Cerune/tree/master/docs/design)
+- [CLIリファレンス](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/cli.ja.md)
+- [Tint（生成結果の表示）](https://tint.hokutaka.dev/)

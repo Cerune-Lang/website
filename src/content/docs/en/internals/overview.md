@@ -1,20 +1,34 @@
 ---
 title: Compiler Internals
-description: Understand Cerune's transformation pipeline and execution paths.
+description: Cerune intermediate representations, execution paths, and code generation.
 ---
 
-One of Cerune's defining goals is to make compiler transformations **observable**.
+Cerune generates intermediate representations from source code and provides multiple execution and code-generation paths. This page summarizes their roles.
 
-## What can you observe?
+## Representations and execution paths
 
-Explore how source code moves through intermediate representations, how multiple execution paths relate, and how generated results retain source provenance.
+| Item | Description |
+| --- | --- |
+| Cerune IR | A shared intermediate representation with resolved types and references |
+| MIR | An intermediate representation with explicit control flow and operations |
+| SSA | A path that converts MIR into SSA form |
+| VM | Execution through Cerune bytecode |
+| Code generation | C, LLVM IR, QBE IR, WAT, native assembly, and object files |
 
-For precise contracts and current implementation details concerning IR, MIR, SSA, and backends, see the primary documents.
+## CLI examples
 
-## Primary sources and tools
+Run these commands from the Cerune repository root:
+
+```sh
+cerune emit-ir examples/hello.ceru
+cerune emit-mir examples/hello.ceru
+cerune run-vm examples/hello.ceru
+```
+
+The `observe` command saves source information, intermediate representations, and source-to-output mappings from a single compilation. It requires an explicit `--target` and a new output directory specified by `-o`. See the [CLI reference](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/cli.en.md) for details.
+
+## Primary sources
 
 - [Compiler design documents](https://github.com/Cerune-Lang/Cerune/tree/master/docs/design)
-- [Core README](https://github.com/Cerune-Lang/Cerune/blob/master/README.md)
-- [Tint — Visualize transformations](https://tint.hokutaka.dev/)
-
-Future pages will illustrate the pipeline with real compiler-generated examples.
+- [CLI reference](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/cli.en.md)
+- [Tint (view generated outputs)](https://tint.hokutaka.dev/)

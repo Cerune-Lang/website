@@ -1,16 +1,28 @@
 ---
 title: サンプル
-description: 本体リポジトリで検証されるCeruneコードを読む。
+description: Cerune本体で管理するサンプルプログラムと実行方法。
 ---
 
-コード例は **Cerune本体の `examples/` を正規の置き場所** とします。このサイトでコピーを増やすより、そこにあるプログラムと、その使い方を紹介します。
+Ceruneの実行可能なサンプルは、本体リポジトリの[examples/](https://github.com/Cerune-Lang/Cerune/tree/master/examples)で管理されています。このサイトではコードを複製せず、用途と実行方法を説明します。
 
-## 例を探す
+## サンプル一覧
 
-- [Hello World](https://github.com/Cerune-Lang/Cerune/blob/master/examples/hello.ceru)
-- [関数](https://github.com/Cerune-Lang/Cerune/blob/master/examples/functions.ceru)
-- [配列の反復](https://github.com/Cerune-Lang/Cerune/blob/master/examples/array_iteration.ceru)
-- [浮動小数点](https://github.com/Cerune-Lang/Cerune/blob/master/examples/floating_point.ceru)
-- [サンプル一覧](https://github.com/Cerune-Lang/Cerune/tree/master/examples)
+| サンプル | 内容 |
+| --- | --- |
+| [hello.ceru](https://github.com/Cerune-Lang/Cerune/blob/master/examples/hello.ceru) | 変数と整数の加算。出力は`42` |
+| [functions.ceru](https://github.com/Cerune-Lang/Cerune/blob/master/examples/functions.ceru) | 引数、戻り値、関数呼び出し |
+| [array_iteration.ceru](https://github.com/Cerune-Lang/Cerune/blob/master/examples/array_iteration.ceru) | 配列の反復 |
+| [floating_point.ceru](https://github.com/Cerune-Lang/Cerune/blob/master/examples/floating_point.ceru) | `f32`と`f64`の計算 |
 
-実際に試すなら [Tint](https://tint.hokutaka.dev/) へ。
+## 実行方法
+
+Ceruneリポジトリのルートで、インストール済みのCLIを使います。
+
+```sh
+cerune run examples/hello.ceru
+cerune run examples/functions.ceru
+```
+
+- [サンプル全件](https://github.com/Cerune-Lang/Cerune/tree/master/examples)
+- [CLIリファレンス](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/cli.ja.md)
+- [Tint](https://tint.hokutaka.dev/)

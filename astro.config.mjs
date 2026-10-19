@@ -8,7 +8,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Cerune Docs',
-      description: 'Ceruneを学び、コンパイラの仕組みを探るためのガイド。',
+      description: 'Ceruneの言語機能、CLI、コンパイラ内部の解説。',
       favicon: '/favicon.svg',
       defaultLocale: 'root',
       locales: {
@@ -17,7 +17,7 @@ export default defineConfig({
       },
       social: [
         { icon: 'github', label: 'Cerune on GitHub', href: 'https://github.com/Cerune-Lang/Cerune' },
-        { icon: 'external', label: 'Try Cerune in Tint', href: 'https://tint.hokutaka.dev/' },
+        { icon: 'external', label: 'Open Tint', href: 'https://tint.hokutaka.dev/' },
       ],
       sidebar: [
         { label: 'はじめに', translations: { en: 'Getting Started' }, items: [{ slug: 'guide/getting-started' }] },

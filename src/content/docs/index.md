@@ -1,31 +1,31 @@
 ---
 title: Cerune Docs
-description: Ceruneを学び、コンパイラの中身を観測するためのガイド。
+description: Ceruneの言語機能、CLI、コンパイラ内部の解説。
 template: splash
 hero:
   title: Cerune Docs
-  tagline: コードの意味と、その変換過程を見にいこう。
+  tagline: Ceruneの言語機能、使い方、コンパイラの実装を解説します。
   actions:
-    - text: はじめる
+    - text: はじめに
       link: /guide/getting-started/
       icon: right-arrow
-    - text: Tintで試す
+    - text: Tintを開く
       link: https://tint.hokutaka.dev/
       icon: external
       variant: minimal
 ---
 
-Ceruneは、コンパイラによる変換を観測することを重視した実験的なプログラミング言語です。
+Ceruneは、静的型付け、IR直接実行、VM実行、複数形式へのコード生成に対応する実験的なプログラミング言語です。
 
-## ここから探す
+## ドキュメント
 
-- **[はじめに](/guide/getting-started/)** — インストールと最初のプログラム。
-- **[言語リファレンス](/reference/overview/)** — 型、演算、構文を調べる入口。
-- **[コンパイラ内部](/internals/overview/)** — IR、変換、バックエンドをたどる。
-- **[サンプル](/examples/overview/)** — 本体リポジトリで管理する実例を読む。
+- **[はじめに](/guide/getting-started/)** — インストール方法、構文検査、プログラムの実行。
+- **[言語リファレンス](/reference/overview/)** — 型、構文、実装済みの機能と制限。
+- **[コンパイラ内部](/internals/overview/)** — IR、MIR、SSA、実行経路、コード生成。
+- **[サンプル](/examples/overview/)** — 本体リポジトリのコード例と実行方法。
 
-## このサイトの位置付け
+## 情報の参照元
 
-このサイトは **理解のための二次資料** です。厳密な仕様、実装上の制限、設計判断は [Cerune本体のドキュメント](https://github.com/Cerune-Lang/Cerune/tree/master/docs) が一次資料です。
+このサイトはCeruneの仕様を読みやすく説明するための**二次資料**です。正確な定義や実装上の制限は、[Cerune本体の言語リファレンス](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/language.ja.md)と[CLIリファレンス](https://github.com/Cerune-Lang/Cerune/blob/master/docs/reference/cli.ja.md)を参照してください。
 
-コードを試したいときは [Tint](https://tint.hokutaka.dev/) を使ってください。
+[Tint](https://tint.hokutaka.dev/)ではCeruneのコードとコンパイラの生成結果を確認できます。
