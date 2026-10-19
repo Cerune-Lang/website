@@ -34,6 +34,8 @@ A type's numeric range is not the same as its storage width. In the current impl
 
 **Current limitations:** Appending or growing a dynamic array and borrowing slices are not implemented. Named product-type fields cannot be assigned directly; construct a new value and reassign the whole binding. Generic `Option`/`Result` types are also not implemented.
 
+See [Arrays](/en/reference/arrays/) for operations on fixed-length and dynamic arrays.
+
 ## Type annotations and numeric conversion
 
 Use `count: i64 = 40;` to declare a typed binding. `count: infer = 40;` requests type inference for the declaration; `infer` is not a runtime-dynamic type.
