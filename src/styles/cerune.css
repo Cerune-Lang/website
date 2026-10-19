@@ -1,0 +1,62 @@
+/* Cerune's soft blue/cyan identity on top of Ion.
+ * Keep colors here: do not copy or fork the Ion theme.
+ * Unlayered overrides intentionally take priority over Ion's @layer styles.
+ */
+:root,
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --sl-color-accent-low: #17394e;
+  --sl-color-accent: #80e1ed;
+  --sl-color-accent-high: #d5faff;
+  --sl-color-white: #f1f8ff;
+  --sl-color-gray-1: #d7e9f3;
+  --sl-color-gray-2: #b6cadc;
+  --sl-color-gray-3: #8fa8bd;
+  --sl-color-gray-4: #54718b;
+  --sl-color-gray-5: #24394f;
+  --sl-color-gray-6: #182c42;
+  --sl-color-gray-7: #111f30;
+  --sl-color-black: #0d1726;
+  --sl-border: #29425b;
+  --pagefind-ui-border: #29425b;
+  --pagefind-ui-primary: var(--sl-color-accent);
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --sl-color-accent-low: #e2f4ff;
+  --sl-color-accent: #126c96;
+  --sl-color-accent-high: #084462;
+  --sl-color-white: #16283e;
+  --sl-color-gray-1: #293d52;
+  --sl-color-gray-2: #3e5971;
+  --sl-color-gray-3: #607d95;
+  --sl-color-gray-4: #8ba6ba;
+  --sl-color-gray-5: #bfd4e3;
+  --sl-color-gray-6: #e6f1f8;
+  --sl-color-gray-7: #f1f8fc;
+  --sl-color-black: #fbfdff;
+  --sl-border: #cee2ed;
+  --pagefind-ui-border: #cee2ed;
+  --pagefind-ui-primary: var(--sl-color-accent);
+}
+
+body {
+  font-family: 'Inter', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Yu Gothic', Meiryo, system-ui, sans-serif;
+}
+
+:root {
+  --sl-font-mono: ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  --sl-content-width: 52rem;
+}
+
+.card,
+.sl-link-card,
+.expressive-code .frame {
+  border-radius: 14px;
+}
+
+.site-title {
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
