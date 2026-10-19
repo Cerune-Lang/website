@@ -15,6 +15,10 @@ Cerune generates intermediate representations from source code and provides mult
 | VM | Execution through Cerune bytecode |
 | Code generation | C, LLVM IR, QBE IR, WAT, native assembly, and object files |
 
+## Cerune IR (HIR)
+
+See [Cerune IR (HIR)](/en/internals/ir/) for resolved types and names, NodeId and source origins, direct IR execution, and MIR lowering.
+
 ## CLI examples
 
 Run these commands from the Cerune repository root:
