@@ -42,7 +42,7 @@ Cerune does not perform implicit numeric conversions. See [Types](/en/reference/
 
 A `mut` array binding permits element updates. Arrays have value-copy semantics, so an element update to one copy does not affect another.
 
-The contents of a `string` value are immutable. A `mut` string binding can be reassigned to a different string but cannot be used to change part of the string in place.
+The contents of a `string` value are immutable. A `mut` string binding can be reassigned to a different string but cannot be used to change part of the string in place. See [Strings](/en/reference/strings/) for examples.
 
 ## Block scope
 

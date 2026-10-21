@@ -9,6 +9,10 @@ This page summarizes the main language features. For precise type semantics, eva
 
 The [Types](/en/reference/types/) page summarizes integer and floating-point types, booleans, strings, arrays, user-defined types, and their basic rules.
 
+## Strings
+
+See [Strings](/en/reference/strings/) for UTF-8, concatenation, byte lengths, escapes, equality, and immutability.
+
 ## Bindings and reassignment
 
 The [Variables and Bindings](/en/reference/variables/) page covers declarations, reassignment with `mut`, type inference with `infer`, and block scope.
