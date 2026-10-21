@@ -40,7 +40,7 @@ See [Arrays](/en/reference/arrays/) for array operations, [Product Types](/en/re
 
 Use `count: i64 = 40;` to declare a typed binding. `count: infer = 40;` requests type inference for the declaration; `infer` is not a runtime-dynamic type.
 
-Numeric types are not converted implicitly. `T(value)` and `convert<T>(value)` support **value-preserving conversions**; conversions that cannot preserve the value exactly stop execution. Separate explicit operations provide rounding or saturation.
+Numeric types are not converted implicitly. `T(value)` and `convert<T>(value)` support **value-preserving conversions**; conversions that cannot preserve the value exactly stop execution. For explicit rounding and saturation, see [Numeric Conversions](/en/reference/numeric-conversions/).
 
 See [Operators](/en/reference/operators/) for arithmetic, comparisons, boolean logic, bit operations, and evaluation order.
 
