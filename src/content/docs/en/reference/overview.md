@@ -29,6 +29,10 @@ The [Arrays](/en/reference/arrays/) page covers fixed-length and dynamic arrays,
 
 See [Product Types](/en/reference/product-types/) for `type`, field defaults, construction, and `..base` update expressions.
 
+## Enums and Match
+
+See [Enums and Match](/en/reference/enums-match/) for `enum` variants with payloads, match statements and expressions, guards, and exhaustiveness.
+
 ## Control Flow
 
 See [Control Flow](/en/reference/control-flow/) for conditional statements, loops, `break` and `continue`, and branching on `enum` variants.

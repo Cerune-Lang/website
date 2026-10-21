@@ -45,7 +45,7 @@ A public function can call private helpers in the same file. Importers cannot ca
 
 Public function parameters and return types, and public type fields, cannot expose a private type. Per-field visibility is not supported.
 
-Use `alias::Enum::Variant` for imported enum variants and `alias::COUNT` for exported array-length constants.
+Use `alias::Enum::Variant` for imported enum variants and `alias::COUNT` for exported array-length constants. See [Enums and Match](/en/reference/enums-match/) for variants and pattern matching.
 
 ## Paths and loading rules
 
