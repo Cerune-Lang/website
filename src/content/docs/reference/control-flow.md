@@ -110,6 +110,8 @@ print(count != 0 && 12 / count > 2); // false
 
 各ブロックは新しいスコープを作ります。ブロックの中で宣言した束縛は外から見えません。詳細は[変数と束縛](/reference/variables/)を参照してください。
 
+短絡評価と演算子の優先順位については[演算子](/reference/operators/)も参照してください。
+
 ## サンプルと一次資料
 
 - [conditional.ceru](https://github.com/Cerune-Lang/Cerune/blob/master/examples/conditional.ceru) — `if` / `else`

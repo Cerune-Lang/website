@@ -110,6 +110,8 @@ print(count != 0 && 12 / count > 2); // false
 
 Each braced block creates a new scope. Bindings declared inside it are not visible outside it. See [Variables and Bindings](/en/reference/variables/) for details.
 
+See [Operators](/en/reference/operators/) for short-circuit semantics and operator precedence.
+
 ## Examples and primary sources
 
 - [conditional.ceru](https://github.com/Cerune-Lang/Cerune/blob/master/examples/conditional.ceru) — `if` / `else`

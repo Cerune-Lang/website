@@ -42,6 +42,8 @@ Use `count: i64 = 40;` to declare a typed binding. `count: infer = 40;` requests
 
 Numeric types are not converted implicitly. `T(value)` and `convert<T>(value)` support **value-preserving conversions**; conversions that cannot preserve the value exactly stop execution. Separate explicit operations provide rounding or saturation.
 
+See [Operators](/en/reference/operators/) for arithmetic, comparisons, boolean logic, bit operations, and evaluation order.
+
 Integer overflow does not wrap implicitly. Out-of-range arithmetic and integer division by zero stop execution. Floating-point calculations use different precision for `f32` and `f64`.
 
 Use `void` for a function that does not return a value.
