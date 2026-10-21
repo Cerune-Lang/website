@@ -44,6 +44,8 @@ A `mut` array binding permits element updates. Arrays have value-copy semantics,
 
 The contents of a `string` value are immutable. A `mut` string binding can be reassigned to a different string but cannot be used to change part of the string in place. See [Strings](/en/reference/strings/) for examples.
 
+Named product-type fields cannot be directly reassigned either. Construct a new value and reassign the whole binding; see [Product Types](/en/reference/product-types/).
+
 ## Block scope
 
 Braced blocks, including the bodies of `if` statements and loops, create new scopes.

@@ -34,7 +34,7 @@ A type's numeric range is not the same as its storage width. In the current impl
 
 **Current limitations:** Appending or growing a dynamic array and borrowing slices are not implemented. Named product-type fields cannot be assigned directly; construct a new value and reassign the whole binding. Generic `Option`/`Result` types are also not implemented.
 
-See [Arrays](/en/reference/arrays/) for operations on fixed-length and dynamic arrays.
+See [Arrays](/en/reference/arrays/) for operations on fixed-length and dynamic arrays, and [Product Types](/en/reference/product-types/) for defining, constructing, and updating named product types.
 
 ## Type annotations and numeric conversion
 
