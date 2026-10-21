@@ -29,6 +29,10 @@ UTF-8、文字列の連結、バイト数、エスケープ、比較と不変性
 
 `type`、フィールドの既定値、値の構築、`..base`を使った更新式は[名前付き積型](/reference/product-types/)を参照してください。
 
+## 直和型とmatch
+
+`enum`、値付きの選択肢、`match`文・式、ガードと網羅性は[直和型とmatch](/reference/enums-match/)を参照してください。
+
 ## 制御構文
 
 条件分岐、繰り返し、`break`・`continue`、`enum`の分岐は[制御構文](/reference/control-flow/)を参照してください。

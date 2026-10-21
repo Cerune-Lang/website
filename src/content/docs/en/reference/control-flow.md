@@ -97,6 +97,8 @@ label: string = match value {
 
 An arm may include a `bool` guard with `if condition` after its pattern. A guard runs only when the variant matches. **Every variant requires an unguarded arm**. Whole-value wildcard arms and nested patterns are not currently supported.
 
+See [Enums and Match](/en/reference/enums-match/) for constructors, payload patterns, guards, exhaustiveness, and match expressions.
+
 ## Boolean conditions and scope
 
 `&&` and `||` use short-circuit evaluation. When the left operand determines the result, the right operand is not evaluated.

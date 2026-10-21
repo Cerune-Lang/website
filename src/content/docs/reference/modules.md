@@ -45,7 +45,7 @@ pub fn reading(amount: u64) -> Reading {
 
 公開関数の引数・戻り値、公開型のフィールドには、非公開型を含められません。フィールド単位の公開範囲は指定できません。
 
-外部の`enum`の選択肢は`alias::Enum::Variant`、公開された配列長の定数は`alias::COUNT`の形式で参照できます。
+外部の`enum`の選択肢は`alias::Enum::Variant`、公開された配列長の定数は`alias::COUNT`の形式で参照できます。選択肢と`match`については[直和型とmatch](/reference/enums-match/)を参照してください。
 
 ## パスと読み込み順
 
