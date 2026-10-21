@@ -25,6 +25,10 @@ The [Functions](/en/reference/functions/) page covers definitions, parameters, r
 
 The [Arrays](/en/reference/arrays/) page covers fixed-length and dynamic arrays, copying, updates, iteration, and limitations.
 
+## Product Types
+
+See [Product Types](/en/reference/product-types/) for `type`, field defaults, construction, and `..base` update expressions.
+
 ## Control Flow
 
 See [Control Flow](/en/reference/control-flow/) for conditional statements, loops, `break` and `continue`, and branching on `enum` variants.
