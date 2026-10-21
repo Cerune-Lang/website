@@ -9,6 +9,10 @@ This page summarizes the main language features. For precise type semantics, eva
 
 The [Types](/en/reference/types/) page summarizes integer and floating-point types, booleans, strings, arrays, user-defined types, and their basic rules.
 
+## Operators
+
+See [Operators](/en/reference/operators/) for arithmetic, comparisons, logical and bitwise operations, evaluation order, precedence, and runtime failures.
+
 ## Strings
 
 See [Strings](/en/reference/strings/) for UTF-8, concatenation, byte lengths, escapes, equality, and immutability.
