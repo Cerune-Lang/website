@@ -15,7 +15,7 @@ Cerune is a statically typed language. Types are resolved during source validati
 | Boolean | `bool` | `true`, `false`, logical operations, and comparisons |
 | Strings | `string` | Immutable UTF-8 strings. Output, equality comparison, and concatenation |
 
-Use `concat` to concatenate strings and `byte_len` to get the number of **UTF-8 bytes**. Counting characters and string indexing are not implemented.
+Use `concat` to concatenate strings and `byte_len` to get the number of **UTF-8 bytes**. Counting characters and string indexing are not implemented. See [Strings](/en/reference/strings/) for details.
 
 :::note
 A type's numeric range is not the same as its storage width. In the current implementation, smaller integer types also occupy 64-bit storage regions in generated code; changing `i64` to `i8` does not necessarily reduce memory usage.
