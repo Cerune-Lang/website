@@ -127,7 +127,7 @@ Binary operators at the same precedence level associate to the left. **Compariso
 
 ## Limitations and primary sources
 
-Implicit numeric conversions, wrapping integer arithmetic, left shifts that silently discard bits, and string ordering are not implemented. Numeric conversions, rounding, and saturation use **separate explicit operations** (see [Types](/en/reference/types/)).
+Implicit numeric conversions, wrapping integer arithmetic, left shifts that silently discard bits, and string ordering are not implemented. Numeric conversions, rounding, and saturation use **separate explicit operations** (see [Numeric Conversions](/en/reference/numeric-conversions/)).
 
 Official examples show these operators in practical use:
 

@@ -13,6 +13,10 @@ The [Types](/en/reference/types/) page summarizes integer and floating-point typ
 
 See [Operators](/en/reference/operators/) for arithmetic, comparisons, logical and bitwise operations, evaluation order, precedence, and runtime failures.
 
+## Numeric Conversions
+
+See [Numeric Conversions](/en/reference/numeric-conversions/) for exact value-preserving conversion, rounding, saturation, and failure conditions.
+
 ## Strings
 
 See [Strings](/en/reference/strings/) for UTF-8, concatenation, byte lengths, escapes, equality, and immutability.
